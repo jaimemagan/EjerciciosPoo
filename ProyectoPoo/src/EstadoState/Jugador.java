@@ -1,6 +1,7 @@
 package EstadoState;
 
-import java.util.ArrayList;
+import Cartas.Carta;
+
 import java.util.List;
 
 public class Jugador {
