@@ -1,6 +1,7 @@
 package EstadoState;
 
 import Cartas.Carta;
+import Personaje.Personaje;
 
 import java.util.List;
 
@@ -52,5 +53,69 @@ public class Jugador {
     * nos permitira realizar una accion especifica segun su estado */
     public void realizarAccion() {
         this.estado.ejecutarAccion(this);
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public List<Carta> getMazo() {
+        return mazo;
+    }
+
+    public void setMazo(List<Carta> mazo) {
+        this.mazo = mazo;
+    }
+
+    public List<Carta> getMano() {
+        return mano;
+    }
+
+    public void setMano(List<Carta> mano) {
+        this.mano = mano;
+    }
+
+    public List<Carta> getCartasEnDescarte() {
+        return cartasEnDescarte;
+    }
+
+    public void setCartasEnDescarte(List<Carta> cartasEnDescarte) {
+        this.cartasEnDescarte = cartasEnDescarte;
+    }
+
+    public int getPuntosVida() {
+        return puntosVida;
+    }
+
+    public void setPuntosVida(int puntosVida) {
+        this.puntosVida = puntosVida;
+    }
+
+    public Personaje getPersonaje() {
+        return personaje;
+    }
+
+    public void setPersonaje(Personaje personaje) {
+        this.personaje = personaje;
+    }
+
+    public Estado getEstado() {
+        return estado;
+    }
+
+    public void setEstado(Estado estado) {
+        this.estado = estado;
     }
 }
