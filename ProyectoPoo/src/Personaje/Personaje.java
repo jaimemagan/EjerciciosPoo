@@ -8,6 +8,7 @@ public class Personaje {
     private TipoPersonaje tipoPersonaje;
     private Habilidad habilidad;
 
+
     public Personaje(String nombre, TipoPersonaje tipoPersonaje, Habilidad habilidad) {
         this.nombre = nombre;
         this.tipoPersonaje = tipoPersonaje;

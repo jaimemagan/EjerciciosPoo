@@ -26,10 +26,10 @@ public class TableroController {
 
     public void initialize() {
         // Aquí puedes cargar las imágenes de los avatares y las cartas.
-        player1Avatar.setImage(new Image("path/to/avatar1.png"));
-        player2Avatar.setImage(new Image("path/to/avatar2.png"));
-        player3Avatar.setImage(new Image("path/to/avatar3.png"));
-        player4Avatar.setImage(new Image("path/to/avatar4.png"));
+        player1Avatar.setImage(new Image("com/example/Tablero/imagenJuego/P1.png"));
+        player2Avatar.setImage(new Image("com/example/Tablero/imagenJuego/P1.png"));
+        player3Avatar.setImage(new Image("com/example/Tablero/imagenJuego/P2.png"));
+        player4Avatar.setImage(new Image("com/example/Tablero/imagenJuego/P3.png"));
 
         card1.setImage(new Image("path/to/card1.png"));
         card2.setImage(new Image("path/to/card2.png"));
